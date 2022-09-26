@@ -1,0 +1,8 @@
+E:\steam\steamapps\common\The Scroll Of Taiwu\Mod\TaiWuModTest\TaiWuModTest\HelloWorld.dll
+E:\steam\steamapps\common\The Scroll Of Taiwu\Mod\TaiWuModTest\TaiWuModTest\HelloWorld.pdb
+C:\Users\Administrator\Desktop\Mods\ModTest\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\Mods\ModTest\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Mods\ModTest\HelloWorld\HelloWorld\obj\Debug\HelloWorld.dll
+C:\Users\Administrator\Desktop\Mods\ModTest\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
+E:\steam\steamapps\common\The Scroll Of Taiwu\Mod\TaiWuModTest\Plugins\HelloWorld.dll
+E:\steam\steamapps\common\The Scroll Of Taiwu\Mod\TaiWuModTest\Plugins\HelloWorld.pdb
