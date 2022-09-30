@@ -1,0 +1,6 @@
+#	TestTable		
+#	Id		Description
+#	int		string
+#	编号	备注	描述
+	1	Test	第一项
+	2	Test	第二项
