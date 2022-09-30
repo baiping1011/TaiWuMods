@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameFramework", "GameFramework.csproj", "{970bf2ea-24f9-6d37-c686-943777be6201}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityGameFramework.Runtime", "UnityGameFramework.Runtime.csproj", "{a0fdfbff-c60d-4d78-256e-ec2b6a3268d1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{2abd11ea-dc0b-06b8-0626-8ade57efb271}"
@@ -14,6 +16,8 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{970bf2ea-24f9-6d37-c686-943777be6201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{970bf2ea-24f9-6d37-c686-943777be6201}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{a0fdfbff-c60d-4d78-256e-ec2b6a3268d1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{a0fdfbff-c60d-4d78-256e-ec2b6a3268d1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2abd11ea-dc0b-06b8-0626-8ade57efb271}.Debug|Any CPU.ActiveCfg = Debug|Any CPU

@@ -11,6 +11,7 @@ namespace MyGame
     public class ChangeSceneProcedure : MyProcedureBase
     {
         private bool m_IsChangeSceneComplete;
+        private string nextSceneid;
 
         protected override void OnEnter(IFsm<IProcedureManager> procedureOwner)
         {
@@ -36,14 +37,14 @@ namespace MyGame
 
             // 还原游戏速度
             GameEntry.Base.ResetNormalGameSpeed();
-            string sceneId = procedureOwner.GetData<VarString>("NextScene");
-            if (sceneId == null)
+            nextSceneid  = procedureOwner.GetData<VarString>("NextScene");
+            if (nextSceneid == null)
             {
-                Log.Warning("Can not load scene '{0}' from data table.", sceneId.ToString());
+                Log.Warning("Can not load scene '{0}' from data table.", nextSceneid.ToString());
                 return;
             }
 
-            GameEntry.Scene.LoadScene($"Assets/GameMain/Scenes/{sceneId}.unity", 0, this);
+            GameEntry.Scene.LoadScene($"Assets/GameMain/Scenes/{nextSceneid}.unity", 0, this);
         }
 
         protected override void OnLeave(IFsm<IProcedureManager> procedureOwner, bool isShutdown)
@@ -66,6 +67,15 @@ namespace MyGame
             if (!m_IsChangeSceneComplete)
             {
                 return;
+            }
+
+            if (nextSceneid== "MainScene")
+            {
+                
+            }
+            else if (nextSceneid== "MenuScene")
+            {
+                ChangeState<MenuProcedure>(procedureOwner);
             }
             // ChangeState<ProcedureMenu>(procedureOwner);
         }
